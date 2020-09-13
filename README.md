@@ -11,9 +11,9 @@ After twice Arch installation in a couple days, I decide to write down an instal
 4. NetworkManager
 5. Xorg display server
 6. LightDM display manager
-6. KDE Desktop Environment
-7. Plasma Desktop Session
-8. WIFI ofc
+7. KDE Desktop Environment
+8. Plasma Desktop Session
+9. WIFI ofc
 ```
 ## Instructions :
 First of all. I just gonna use the last ingredient.
@@ -30,7 +30,7 @@ see Soft Blocked under Wireless Lan should be 'no' and u good to go.
 ```sh
 # wifi-menu
 ```
-This command will run dialog menu. Select your SSD and type your password.
+This command will run dialog menu. Select your SSID and type your password.
 ```sh
 # ping google.com
 ```
