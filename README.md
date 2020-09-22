@@ -26,15 +26,20 @@ Idk why my wireless lan is on rfkill list. Check to make sure wifi is unblocked
 ```sh
 # rfkill list
 ```
-see Soft Blocked under Wireless Lan should be 'no' and u good to go.
+see Soft Blocked under Wireless Lan. It should be 'no' and u good to go.
 ```sh
-# wifi-menu
+# iwctl --passphrase passphrase station device connect SSID
 ```
 This command will run dialog menu. Select your SSID and type your password.
 ```sh
-# ping google.com
+# eg
+# iwctl --passphrase diohlicious446 station device studioh
 ```
 Check if connection soft and tasty
+```sh
+# ping google.com
+```
+
 
 ### 2. Make Partition
 This one is sweaty bc i have win10 and I dont want to format it by accident.
